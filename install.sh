@@ -13,5 +13,5 @@ for i in $(find .config/ -type f); do
         cp ${file_location} ${backup_file}
     fi
     echo "Deploying file ${new_file} on ${file_location}"
-    cp ${new_file} ${file_location}
+    cp --parents ${new_file} ${HOME}
 done
