@@ -1,5 +1,5 @@
 #/bin/bash
-sudo apt-get install openbox konsole lxrandr tint2 conky xautolock gmrun suckless-tools scrot orage volumeicon-alsa
+sudo apt-get install --yes openbox konsole lxrandr tint2 conky xautolock gmrun suckless-tools scrot orage volumeicon-alsa
 
 backup_string=$(date '+%d_%m_%Y_%H_%M_%S')
 
