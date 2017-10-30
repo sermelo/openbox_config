@@ -1,0 +1,5 @@
+xrandr --output HDMI-1 --mode 1680x1050 --rate 59.95 --output DVI-I-1 --mode 1680x1050 --rate 59.88 --left-of HDMI-1
+tint2 &
+conky &
+xautolock -time 5 -locker slock &
+sleep 20 && volumeicon &
