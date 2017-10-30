@@ -7,7 +7,6 @@ for i in $(find .config/ -type f); do
     new_file="${i}"
     file_location="$HOME/${new_file}"
     echo "Processing file ${new_file}"
-    echo "if [ -f ${file_location} ]; then"
     if [ -f ${file_location} ]; then
         backup_file=${file_location}${backup_string}
         echo "Backing up ${file_location} to ${backup_file}"
