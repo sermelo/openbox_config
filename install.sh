@@ -12,6 +12,6 @@ for i in $(find .config/ -type f); do
         echo "Backing up ${file_location} to ${backup_file}"
         cp ${file_location} ${backup_file}
     fi
-    echo "Deploying dile ${new_file} on ${file_location}"
+    echo "Deploying file ${new_file} on ${file_location}"
     cp ${new_file} ${file_location}
 done
